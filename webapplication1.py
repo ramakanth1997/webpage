@@ -3,7 +3,10 @@
 # booking_app.py
 import streamlit as st
 #import pandas as pd
-
+from utils.Dashboard_Operations import dashboard_operations
+from utils.Dashboard import dashboard_custome_satisf
+from utils.Info_Page import landing_page
+from utils.addition.graphs import graph_pes
 # Title of the web app
 st.title('Hotel Room Booking Application')
 
